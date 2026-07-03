@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:sitemap && vite build && npm run prerender",
+    "build": "npm run generate:sitemap && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "generate:sitemap": "node scripts/generate-sitemap.js",
-    "prerender": "node scripts/prerender.js"
+    "prerender:local": "npm run build && node scripts/prerender.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
