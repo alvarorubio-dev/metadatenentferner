@@ -39,6 +39,36 @@ export function SeoManager({ lang, format }: SeoManagerProps) {
 
   const appName = appNames[lang as keyof typeof appNames] || appNames.de;
 
+  // Breadcrumb solo tiene sentido con 2+ niveles (Google exige minimo 2 ListItem).
+  // La pagina default (sin formato) ES el nivel raiz, no lleva breadcrumb propio.
+  const homeLabels = {
+    de: 'Start',
+    fr: 'Accueil',
+    it: 'Home',
+  };
+  const homeLabel = homeLabels[lang as keyof typeof homeLabels] || homeLabels.de;
+
+  const breadcrumbData = validFormat
+    ? {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": homeLabel,
+            "item": `${BASE_URL}/${lang}/`
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": seoContent.h1,
+            "item": canonicalUrl
+          }
+        ]
+      }
+    : null;
+
   // FIX: Unificamos los datos estructurados (Schema) en un solo bloque
   const structuredData = {
     "@context": "https://schema.org",
@@ -114,6 +144,12 @@ export function SeoManager({ lang, format }: SeoManagerProps) {
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
+
+      {breadcrumbData && (
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbData)}
+        </script>
+      )}
     </Helmet>
   );
 }
