@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de-CH">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fallback estatico: SeoManager.tsx sobreescribe title/description por ruta
+         en runtime y en cada HTML prerenderizado. Esto solo se ve si una ruta
+         no cubierta por el prerender sirve este shell directamente. -->
+    <title>Metadaten Entferner - Kostenlos & Sicher (Schweiz)</title>
+    <meta name="description" content="Entfernen Sie Metadaten, EXIF und versteckte Informationen aus Ihren Dateien. 100% Client-Side, keine Daten verlassen Ihren Browser." />
+
+    <!-- El hreflang por ruta (incluyendo variantes de formato) lo inyecta SeoManager.tsx
+         y queda fijado en el HTML estatico generado por scripts/prerender.js.
+         No se duplica aqui para evitar tags <link rel="alternate"> conflictivos. -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+    </noscript>
+    
+    <style>
+      /* Critical CSS - Font fallback to prevent CLS */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      }
+      /* Reserve space for H1 to prevent layout shift */
+      h1 {
+        min-height: 2.5rem;
+      }
+      @media (min-width: 768px) {
+        h1 {
+          min-height: 3rem;
+        }
+      }
+    </style>
+    
+    </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

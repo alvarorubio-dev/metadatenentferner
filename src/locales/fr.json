@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Supprimer Métadonnées Photo | Effacer EXIF & GPS",
+    "description": "Outil gratuit pour supprimer les données EXIF et la position GPS des photos. 100% Client-Side, sécurisé et conforme LPD."
+  },
+  "hero": {
+    "title": "Supprimer les métadonnées des images – Effacer EXIF & GPS",
+    "subtitle": "Anonymisez vos images sans upload : Supprimez les données EXIF, la position GPS et le modèle de caméra directement dans le navigateur. 100% Client-Side conforme LPD Suisse.",
+    "subtitle_doc": "Anonymisez vos documents sans upload : Supprimez les métadonnées cachées comme les noms d'auteur, temps d'édition et versions logicielles directement dans le navigateur. 100% Client-Side conforme LPD Suisse."
+  },
+  "badges": {
+    "clientSide": "100% Client-Side",
+    "noUpload": "Pas de transfert serveur (LPD)",
+    "swissPrivacy": "Swiss Privacy Standard"
+  },
+  "dropZone": {
+    "dragDrop": "Déposez les images ici ou cliquez",
+    "dragDrop_doc": "Déposez les documents ici ou cliquez",
+    "formats": "Supporte : JPG, PNG, WEBP, HEIC",
+    "formats_doc": "Supporte : PDF, DOCX, XLSX",
+    "button": "Sélectionner une image",
+    "button_doc": "Sélectionner un fichier",
+    "ariaLabel": "Sélectionner un fichier pour nettoyer les métadonnées",
+    "ariaLabel_doc": "Sélectionner un document pour nettoyer les métadonnées"
+  },
+  "inspector": {
+    "title": "Analyse des Métadonnées",
+    "btnClean": "Supprimer les métadonnées",
+    "totalFields": "Champs trouvés :",
+    "categoryCamera": "Données Caméra",
+    "categoryGPS": "Position GPS",
+    "categoryOther": "Autres Données",
+    "reportTitle": "Rapport d'Analyse",
+    "reportSuccess": "Nettoyage réussi !",
+    "reportSuccessDesc": "Toutes les métadonnées personnelles ont été supprimées.",
+    "fileSizeComparison": "Comparaison de taille",
+    "originalSize": "Original :",
+    "cleanedSize": "Nettoyé :",
+    "spaceSaved": "Économisé :",
+    "sizeUnchanged": "Métadonnées supprimées (Taille inchangée)",
+    "fileRestructured": "Régénération complète (Sécurité maximale)",
+    "preservedTechnical": "Données techniques conservées",
+    "removedTags": "tags supprimés",
+    "preservedDesc": "Les données nécessaires à l'affichage sont conservées.",
+    "viewPreservedTags": "Voir les détails",
+    "downloadCleanImage": "Télécharger l'image",
+    "labelNoData": "Aucune métadonnée visualisable trouvée",
+    "documentMetadataInfo": "Ce document contient des métadonnées internes (Auteur, Version, Historique) qui seront supprimées lors du nettoyage.",
+    "documentCleanedSuccess": "Document nettoyé avec succès. Toutes les métadonnées cachées ont été supprimées."
+  },
+  "errors": {
+    "pdfPassword": "PDF protégé par mot de passe. Les fichiers protégés ne peuvent pas être traités.",
+    "pdfProcessing": "Erreur lors du traitement du fichier PDF. Il est peut-être corrompu.",
+    "officeProcessing": "Erreur lors du traitement du fichier Office. Il est peut-être corrompu.",
+    "heicConversion": "Erreur lors de la conversion de l'image HEIC.",
+    "imageFormat": "Format d'image non pris en charge. Veuillez utiliser JPG, PNG, WEBP ou HEIC.",
+    "imageProcessing": "Erreur lors du traitement de l'image. Le fichier est peut-être corrompu.",
+    "canvasContext": "Erreur lors de la création du contexte Canvas.",
+    "blobCreation": "Erreur lors de la création de l'image nettoyée.",
+    "imageLoading": "Erreur lors du chargement de l'image. Le fichier est-il corrompu?",
+    "generic": "Erreur lors du traitement du fichier. Veuillez réessayer."
+  },
+  "trustBadges": {
+    "clientSide": { "title": "100% Local", "description": "Fonctionne hors ligne" },
+    "noUpload": { "title": "Aucun Upload", "description": "Conforme LPD & RGPD" },
+    "swissPrivacy": { "title": "Norme Suisse", "description": "Protection maximale" }
+  },
+  "seo": {
+    "whyTitle": "Supprimer les données EXIF : Pourquoi les métadonnées menacent votre vie privée",
+    "whyTitle_doc": "Supprimer les métadonnées des documents : Pourquoi les informations cachées sont un risque",
+    "whyText": "Les photos de votre smartphone enregistrent des métadonnées cachées qui en révèlent plus que vous ne le pensez. Les données EXIF contiennent des informations sensibles qui peuvent compromettre votre sécurité :",
+    "whyText_doc": "Vos documents numériques stockent des informations cachées qui en révèlent plus que vous ne le pensez. Les métadonnées contiennent des données sensibles qui peuvent compromettre votre vie privée et sécurité :",
+    "gpsLocation": "Position GPS :",
+    "gpsLocationDesc": "Votre domicile exact, votre lieu de travail ou votre position actuelle est partagée avec des inconnus.",
+    "gpsLocation_doc": "Nom d'auteur & Organisation :",
+    "gpsLocationDesc_doc": "Votre nom complet, nom de société et département sont enregistrés dans chaque document.",
+    "deviceFingerprint": "Empreinte de l'appareil :",
+    "deviceFingerprintDesc": "Le modèle de l'appareil photo, le numéro de série, la version du logiciel et l'ID de l'appareil sont enregistrés.",
+    "deviceFingerprint_doc": "Logiciel & Historique d'édition :",
+    "deviceFingerprintDesc_doc": "Version du logiciel, nom d'ordinateur et historique complet des modifications sont enregistrés.",
+    "timestamp": "Horodatage & Prise de vue :",
+    "timestampDesc": "L'heure et la date exactes révèlent vos habitudes et vos modèles de déplacement.",
+    "timestamp_doc": "Dates de création & modification :",
+    "timestampDesc_doc": "Les horodatages précis révèlent vos horaires de travail, pression temporelle et processus internes.",
+    "importantFor": "La suppression des métadonnées est particulièrement importante pour :",
+    "importantFor_doc": "La suppression des métadonnées des documents est particulièrement importante pour :",
+    "marketplaces": "Plateformes de vente (Ricardo, Tutti, eBay) :",
+    "marketplacesDesc": "Empêchez les acheteurs d'extraire votre adresse privée à partir des photos de produits.",
+    "marketplaces_doc": "Documents publics & Rapports :",
+    "marketplacesDesc_doc": "Empêchez que les noms d'auteur et détails d'organisation apparaissent dans les documents partagés publiquement.",
+    "dating": "Applications de rencontre & Réseaux sociaux :",
+    "datingDesc": "Protégez-vous contre le harcèlement et le pistage numérique via les données GPS des images.",
+    "dating_doc": "Contrats & Devis :",
+    "datingDesc_doc": "Supprimez les commentaires internes, historique des modifications et informations confidentielles avant envoi.",
+    "professional": "Communication commerciale & professionnelle :",
+    "professionalDesc": "Envoyez des images professionnelles sans métadonnées personnelles à vos clients et partenaires.",
+    "professional_doc": "Candidatures & Travaux de portfolio :",
+    "professionalDesc_doc": "Évitez que des données personnelles ou anciens employeurs soient visibles dans vos documents.",
+    "comparisonTitle": "Anonymiser les images sans upload : Technologie locale vs Outils Cloud",
+    "comparisonTitle_doc": "Anonymiser les documents sans upload : Technologie locale vs Outils Cloud",
+    "comparisonText": "La plupart des outils en ligne de suppression EXIF téléchargent vos photos sur des serveurs tiers – un risque pour la protection des données. Notre outil traite les images 100% localement dans le navigateur sans upload serveur.",
+    "comparisonText_doc": "La plupart des outils en ligne téléchargent vos documents sur des serveurs tiers – un risque massif pour la protection des données. Notre outil traite les documents 100% localement dans le navigateur sans upload serveur.",
+    "tableHeaders": {
+      "feature": "Fonction",
+      "ourSolution": "Notre Solution",
+      "otherTools": "Autres Outils"
+    },
+    "tableRows": {
+      "storage": { "label": "Stockage des données", "ours": "Aucun (RAM du navigateur)", "others": "Upload sur serveur Cloud" },
+      "privacy": { "label": "Confidentialité (LPD)", "ours": "✔ 100% Conforme", "others": "⚠ Risque (Logs serveur)" },
+      "speed": { "label": "Vitesse", "ours": "⚡ Immédiat (Pas d'upload)", "others": "Lent (Upload/Download)" },
+      "quality": { "label": "Qualité d'image", "label_doc": "Qualité de fichier", "ours": "💎 Originale (Sans perte)", "others": "Souvent compressée" }
+    },
+    "howTitle": "Comment fonctionne l'EXIF-Remover : Technologie Client-Side pour une sécurité maximale",
+    "howTitle_doc": "Comment fonctionne le Nettoyeur de Documents : Technologie Client-Side pour une sécurité maximale",
+    "howText": "Sécurité maximale grâce au traitement côté client : Contrairement aux outils basés sur le cloud, nous traitons vos images exclusivement localement.",
+    "howText_doc": "Sécurité maximale grâce au traitement côté client : Contrairement aux outils basés sur le cloud, nous traitons vos documents exclusivement localement.",
+    "howSteps": {
+      "local": "100% Local : Le nettoyage EXIF s'exécute entièrement dans votre navigateur (Chrome, Safari, Firefox). Fonctionne aussi hors ligne.",
+      "local_doc": "100% Local : Le nettoyage des métadonnées s'exécute entièrement dans votre navigateur (Chrome, Safari, Firefox). Fonctionne aussi hors ligne.",
+      "secure": "Confidentialité Suisse : Vos photos ne quittent jamais votre appareil. Pas de serveur, pas de cloud, pas de stockage.",
+      "secure_doc": "Confidentialité Suisse : Vos documents ne quittent jamais votre appareil. Pas de serveur, pas de cloud, pas de stockage.",
+      "fast": "Traitement immédiat : Les métadonnées sont supprimées en quelques secondes sans temps d'attente – même pour les gros fichiers HEIC ou RAW.",
+      "fast_doc": "Traitement immédiat : Les métadonnées sont supprimées en quelques secondes sans temps d'attente – même pour les gros fichiers PDF ou Office."
+    },
+    "faqTitle": "Questions fréquentes – Supprimer EXIF & Métadonnées",
+    "faqTitle_doc": "Questions fréquentes – Supprimer métadonnées de documents",
+    "faq": {
+      "nuclear": { "q": "Comment votre outil supprime-t-il les données plus sûrement que les autres ?", "a": "Nous utilisons la régénération de pixels : L'image est entièrement reconstruite. Notre méthode rend physiquement impossible la survie des anciennes métadonnées." },
+      "nuclear_doc": { "q": "Comment votre outil supprime-t-il les métadonnées plus sûrement ?", "a": "Nous utilisons le nettoyage de métadonnées : Le document est complètement restructuré. Notre méthode rend physiquement impossible la survie des anciennes informations cachées." },
+      "malware": { "q": "L'outil supprime-t-il aussi les codes malveillants cachés ?", "a": "Oui. La régénération de pixels agit comme un désinfectant numérique. Tout code caché est supprimé." },
+      "malware_doc": { "q": "L'outil supprime-t-il aussi les codes cachés des documents ?", "a": "Oui. Le nettoyage de métadonnées supprime toutes les informations cachées, y compris les macros, textes cachés et scripts intégrés." },
+      "quality": { "q": "Ma photo perd-elle en qualité ?", "a": "Non. La qualité de l'image reste visuellement identique. Nous utilisons une compression sans perte." },
+      "quality_doc": { "q": "Mon document perd-il en qualité ?", "a": "Non. Le contenu et le formatage restent entièrement préservés. Seules les métadonnées cachées sont supprimées." },
+      "fileSize": { "q": "Pourquoi mon fichier est-il plus volumineux après le nettoyage ?", "a": "C'est bon signe ! Nous ne nous contentons pas de modifier votre fichier, nous le recréons entièrement (Safe Rebuild). Les images sont redessinées sur une \"toile vierge\" et les documents restructurés. Cela élimine tous les risques cachés, mais peut augmenter légèrement la taille du fichier." },
+      "compliance": { "q": "L'outil est-il conforme à la loi suisse (LPD) ?", "a": "Oui, à 100%. Comme vos fichiers sont traités exclusivement localement dans le navigateur, nous ne collectons aucune donnée." },
+      "heic": { "q": "L'outil fonctionne-t-il avec les fichiers HEIC des iPhones ?", "a": "Oui. Notre outil supporte nativement les fichiers HEIC. Sur demande, nous convertissons automatiquement le HEIC en JPG." }
+    }
+  },
+  "footer": {
+    "promise": "Vos données ne quittent jamais votre appareil.",
+    "impressum": "Mentions Légales",
+    "datenschutz": "Confidentialité",
+    "rights": "Tous droits réservés."
+  },
+  "impressum": {
+    "title": "Mentions Légales",
+    "contactTitle": "Adresse de contact",
+    "email": "E-mail",
+    "website": "Site web",
+    "representativeTitle": "Personnes autorisées à représenter",
+    "representativeText": "CEO, Alvaro Rubio, Propriétaire",
+    "disclaimerTitle": "Avis de non-responsabilité",
+    "disclaimerText": "L'auteur n'assume aucune garantie concernant l'exactitude, la précision, l'actualité, la fiabilité et l'exhaustivité du contenu des informations. Les réclamations en responsabilité contre l'auteur pour des dommages matériels ou immatériels résultant de l'accès ou de l'utilisation ou non-utilisation des informations publiées, de l'abus de la connexion ou de perturbations techniques sont exclues.",
+    "disclaimerText2": "Toutes les offres sont sans engagement. L'auteur se réserve expressément le droit de modifier, compléter, supprimer des parties des pages ou l'offre complète sans annonce préalable, ou de cesser temporairement ou définitivement la publication."
+  },
+  "datenschutz": {
+    "title": "Politique de Confidentialité",
+    "section1Title": "1. Généralités",
+    "section1Text": "La protection de votre vie privée est notre priorité absolue. Cette application a été développée selon le principe du \"Privacy by Design\" : le nettoyage de vos fichiers s'effectue entièrement sans transmission des données d'image ou de document à nos serveurs.",
+    "section2Title": "2. Traitement local des données (Client-Side)",
+    "section2Intro": "Conformément à la loi suisse sur la protection des données (nLPD), nous garantissons :",
+    "section2Bullets": {
+      "bullet1": "**Aucun upload cloud** : Vos fichiers ne quittent jamais votre appareil.",
+      "bullet2": "**Traitement basé sur le navigateur** : La suppression des métadonnées s'effectue exclusivement via JavaScript dans votre navigateur (Client-Side).",
+      "bullet3": "**Aucun stockage** : Aucune copie, fichier temporaire ou miniature n'est créé sur nos serveurs.",
+      "bullet4": ""
+    },
+    "section3Title": "3. Données techniques collectées",
+    "section3Intro": "Pour assurer la stabilité et la sécurité du site web, notre hébergeur collecte uniquement les données techniquement nécessaires (fichiers journaux du serveur) :",
+    "section3Bullets": {
+      "bullet1": "Type et version du navigateur",
+      "bullet2": "Système d'exploitation utilisé",
+      "bullet3": "URL de référence (la page précédemment visitée)",
+      "bullet4": "Nom d'hôte de l'ordinateur accédant",
+      "bullet5": "Heure de la demande au serveur"
+    },
+    "section3Footer": "Ces données ne sont pas attribuables à des personnes spécifiques et ne sont pas combinées avec d'autres sources de données.",
+    "section4Title": "4. Cookies & Analyse",
+    "section4Text": "Nous n'utilisons pas de cookies de traçage et renonçons aux outils d'analyse comme Google Analytics. Votre utilisation reste privée et discrète.",
+    "section5Title": "5. Vos droits",
+    "section5Text": "Vous avez le droit d'accéder, de corriger ou de supprimer vos données. Cependant, comme nous ne stockons aucune donnée personnelle, il n'y a généralement aucune donnée que nous pourrions mettre à votre disposition.",
+    "contactLabel": "Contact pour les questions relatives à la protection des données :"
+  }
+}

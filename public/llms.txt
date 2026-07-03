@@ -1,0 +1,37 @@
+# Metadaten Entferner
+
+> Kostenloses Online-Tool zum Entfernen von Metadaten (EXIF, GPS-Standort, Autor,
+> Kameramodell, Bearbeitungsverlauf) aus Fotos, PDFs und Office-Dokumenten.
+> Die gesamte Verarbeitung findet 100% client-seitig im Browser statt – keine
+> Datei wird jemals auf einen Server hochgeladen. Datenschutzkonform nach
+> Schweizer nDSG.
+
+## Was das Tool macht
+
+- Entfernt EXIF-Daten und GPS-Koordinaten aus JPG-, PNG- und HEIC-Fotos.
+- Entfernt Autor, Erstellungsdatum und versteckte Metadaten aus PDF-Dateien.
+- Entfernt Autorennamen, Bearbeitungszeit und Revisionsverlauf aus Word- (DOCX)
+  und Excel- (XLSX) Dokumenten.
+- Verarbeitet Dateien vollstandig im Browser, ohne Upload auf einen Server.
+- Kostenlos, ohne Registrierung, ohne Wasserzeichen.
+
+## Sprachen
+
+- Deutsch: https://metadatenentferner.ch/de/
+- Franzosisch: https://metadatenentferner.ch/fr/
+- Italienisch: https://metadatenentferner.ch/it/
+
+## Format-spezifische Seiten
+
+- PDF: https://metadatenentferner.ch/de/pdf
+- JPG: https://metadatenentferner.ch/de/jpg
+- PNG: https://metadatenentferner.ch/de/png
+- HEIC: https://metadatenentferner.ch/de/heic
+- DOCX: https://metadatenentferner.ch/de/docx
+- XLSX: https://metadatenentferner.ch/de/xlsx
+
+(gleiche Formatpfade auch unter /fr/ und /it/ verfugbar)
+
+## Sitemap
+
+https://metadatenentferner.ch/sitemap.xml
